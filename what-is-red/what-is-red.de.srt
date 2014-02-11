@@ -1,398 +1,398 @@
 1
 00:00:10,593 --> 00:00:14,410
-Our next speaker is Nenad Rakocevic
+Die nächste Praesentation ist von Nenad Rakocevic
 
 2
 00:00:14,410 --> 00:00:17,039
-who will be telling us "What is Red"
+Nenad wird uns die Frage "What is Red" beantworten
 
 3
 00:00:17,039 --> 00:00:22,496
-(applause)
+(Applaus)
 
 4
 00:00:22,886 --> 00:00:27,767
-Thanks, Greg. And thanks to all the people
+Danke, Greg. Danke auch an alle Helfer
 
 5
 00:00:27,767 --> 00:00:31,908
-that donated to pay the cost for my trip
+die gespendet haben um mir die Reise
 
 6
 00:00:31,908 --> 00:00:33,728
-so I could make it.
+hierher zu ermöglichen.
 
 7
 00:00:33,728 --> 00:00:36,932
-I've made a lot of Red presentations
+Ich habe schon viele Präsentationen zu Red gehalten,
 
 8
 00:00:36,932 --> 00:00:43,013
-but newcomers to Red are still coming to me
+aber Red-Neulinge fragen mich regelmäßig
 
 9
 00:00:43,013 --> 00:00:45,517
-with this simple question:
+diese eine Frage:
 
 10
 00:00:45,517 --> 00:00:47,400
-just "What is Red"
+"Was ist Red?"
 
 11
 00:00:47,400 --> 00:00:50,166
-because the project has many aspects
+Nachdem das Projekt "Red" viele Facetten hat,
 
 12
 00:00:50,166 --> 00:00:51,741
-and I can understand that.
+kann ich diese Frage gut verstehen.
 
 13
 00:00:51,741 --> 00:00:54,042
-So I'll try in this presentation to give you
+Daher werde ich in dieser Präsentation versuchen
 
 14
 00:00:54,042 --> 00:00:58,673
-a good view of every part of the project.
+euch einen Eindruck von jedem Teil des Projekts zu vermitteln.
 
 15
 00:00:58,673 --> 00:01:02,522
-So let's start by an overview of the problem.
+Beginnen wir mit einem Überblick des Problems.
 
 16
 00:01:02,522 --> 00:01:06,517
-It's not a picture of my brain cells.
+Nein, das ist kein Bild meiner Gehirnzellen.
 
 17
 00:01:06,517 --> 00:01:10,566
-It's a computer model of a global map
+Das ist ein Computermodell einer Karte
 
 18
 00:01:10,566 --> 00:01:12,772
-of the known Universe.
+des bekannten Universums.
 
 19
 00:01:12,772 --> 00:01:14,740
-That gives you a good picture
+Ich glaube, das illustriert schön
 
 20
 00:01:14,740 --> 00:01:18,230
-of the size of the problem (laughter)
+die Ausmaße des Problems (Gelächter)
 
 21
 00:01:18,230 --> 00:01:20,329
-And actually it's a hint at
+Außerdem ist es eine Anspielung
 
 22
 00:01:20,329 --> 00:01:23,036
-what I was supposed to become
+auf was ich hätte werden sollen
 
 23
 00:01:23,036 --> 00:01:26,011
-because I was studying astrophysics
+weil ich Astrophysik studiert habe
 
 24
 00:01:26,011 --> 00:01:30,570
-and I switched in college to Computer Science.
+und dann auf Informatik gewechselt habe.
 
 25
 00:01:30,570 --> 00:01:34,589
-My view of the computing world is that
+Meiner Ansicht nach, verwenden wir in der IT
 
 26
 00:01:34,589 --> 00:01:38,792
-even today we are still using some primitive
+auch heute noch häufig primitive
 
 27
 00:01:38,792 --> 00:01:41,018
-tools and techniques.
+Werkzeuge und Methoden.
 
 28
 00:01:41,018 --> 00:01:44,653
-So we are not very far from these two guys
+Wir sind also nicht sehr weit von diesen zwei entfernt
 
 29
 00:01:44,653 --> 00:01:46,357
-on the software side.
+was Software betrifft.
 
 30
 00:01:46,357 --> 00:01:49,283
-We are still doing it in a very primitive way
+Wir agieren immer noch mit sehr primitiven Mitteln
 
 31
 00:01:49,283 --> 00:01:51,928
-because we keep reinventing the wheels
+weil wir ständig das Rad neu erfinden
 
 32
 00:01:51,928 --> 00:01:54,513
-and constantly are doing the same mistakes
+und dabei immer wieder die selben Fehler machen
 
 33
 00:01:54,513 --> 00:01:56,041
-again and again.
+immer und immer wieder.
 
 34
 00:01:56,041 --> 00:01:58,892
-So AI will be laughing.
+AI hat also leicht lachen.
 
 35
 00:01:58,902 --> 00:02:02,541
-At least I hope. :-) (laughter)
+Das hoffe ich zumindest. :-) (Gelächter)
 
 36
 00:02:02,541 --> 00:02:08,308
-So if we get back a bit more on the topic
+Zurück zum Thema
 
 37
 00:02:08,308 --> 00:02:12,563
-there are actually a lot of programming languages
+es existiert wirklich eine Vielzahl von Programmiersprachen
 
 38
 00:02:12,563 --> 00:02:14,927
-If you look at the Wikipedia list
+Wenn ihr auf die Wikipedia Liste
 
 39
 00:02:14,927 --> 00:02:18,596
-of programming languages, this is just the A part
+von Programmiersprachen schaut, das sind nur die mit "A" beginnenden
 
 40
 00:02:18,596 --> 00:02:23,107
-and that page is not even exhaustive.
+und diese Seite ist nicht einmal vollständig.
 
 41
 00:02:23,107 --> 00:02:24,802
-So there are literally thousands
+Es existieren buchstäblich tausende
 
 42
 00:02:24,802 --> 00:02:27,188
-of programming languages.
+Programmiersprachen.
 
 43
 00:02:27,188 --> 00:02:29,588
-If you look there you will see some languages
+Wenn ihr auf diese Liste schaut, werdet ihr Sprachen sehen
 
 44
 00:02:29,588 --> 00:02:32,839
-that were created on the Amiga.
+die auf dem Amiga erschaffen wurden.
 
 45
 00:02:32,839 --> 00:02:34,465
-The famous "Amiga E"
+Das berühmte "Amiga E"
 
 46
 00:02:34,465 --> 00:02:37,288
-and AMOS which made by a French guy...
+und AMOS, gemacht von einem Franzosen ...
 
 47
 00:02:37,288 --> 00:02:42,988
-a very bright guy, whose name is François Lionet.
+ein sehr intelligenter Kerl namens François Lionet.
 
 48
 00:02:42,988 --> 00:02:46,500
-This Basic was featuring a DSL.
+Dieses Basic hatte schon eine DSL.
 
 49
 00:02:46,500 --> 00:02:50,240
-It was a tool I used to have
+Das war ein Werkzeug mit dem ich
 
 50
 00:02:50,240 --> 00:02:52,899
-more than 20 years ago.
+schon vor über 20 Jahren arbeiten konnte.
 
 51
 00:02:52,899 --> 00:02:56,445
-The DSL was meant for animations...
+Die DSL war für Animationen gedacht ...
 
 52
 00:02:56,445 --> 00:03:00,268
-...it was compiled to native code.
+... und kompilierte in nativen Code.
 
 53
 00:03:00,268 --> 00:03:04,439
-And the whole interpreter and compiler and IDE
+Der gesamte Interpreter, Compiler und die IDE
 
 54
 00:03:04,439 --> 00:03:10,624
-for AMOS was fully written in assembler.
+für AMOS waren vollständig in Assembler geschrieben.
 
 55
 00:03:10,624 --> 00:03:15,262
-So this guy was quite an inspiration for me.
+Dieser Typ war also eine ein ziemliches Vorbild für mich.
 
 56
 00:03:15,262 --> 00:03:19,448
-Despite so many programming languages
+Trotz so vieler Programmiersprachen
 
 57
 00:03:19,448 --> 00:03:22,985
-and tools we are still searching for a newer,
+und Werkzeuge suchen wir immer noch nach einer neueren,
 
 58
 00:03:22,985 --> 00:03:25,197
-better solution.
+besseren Lösung.
 
 59
 00:03:25,197 --> 00:03:28,035
-The problems we are facing every day
+Die Problem mit denen wir in der IT täglich begegnen
 
 60
 00:03:28,035 --> 00:03:31,225
-in the software world are quite known now
+sind mittlerweile ziemlich bekannt
 
 61
 00:03:31,225 --> 00:03:34,345
-but we keep hitting them.
+aber wir kämpfen trotzdem mit ihnen.
 
 62
 00:03:34,345 --> 00:03:37,582
-Like exploding complexity... bloatware...
+Wie zB expodierende Komplexität ... bloatware ...
 
 63
 00:03:37,582 --> 00:03:40,334
-No I don't mean Java, of course. (laughter)
+Nein, klarerweise meine ich nicht Java. (Gelächter)
 
 64
 00:03:40,334 --> 00:03:42,225
-Not thinking about Java. :-P
+Ich denke nicht an Java. :-P
 
 65
 00:03:42,225 --> 00:03:44,769
-Slow performance... Black boxes, which can be
+Schlechte Performance ... Und Blackboxes
 
 66
 00:03:44,769 --> 00:03:46,554
-closed source software, for example.
+wie zB closed source software.
 
 67
 00:03:46,554 --> 00:03:49,598
-Which is often a big problem when trying
+Welche oft ein großes Problem ist, wenn man versucht
 
 68
 00:03:49,598 --> 00:03:53,461
-to solve bugs that you can't reach.
+Bugs zu fixen, an die man nicht rankommt.
 
 69
 00:03:53,461 --> 00:03:57,872
-So instead of spending our time hitting these walls
+So statt dass wir unsere Zeit damit verbringen, gegen diese Wand zu fahren
 
 70
 00:03:57,872 --> 00:04:00,348
-we should have fun doing programming
+sollten Spaß am programmieren haben
 
 71
 00:04:00,348 --> 00:04:02,665
-because programming is about having fun.
+weil beim programmieren geht es darum, Spaß zu haben.
 
 72
 00:04:02,665 --> 00:04:05,265
-And this is the spirit we should have when
+Und das ist die Stimmung in die wir kommen sollten
 
 73
 00:04:05,265 --> 00:04:07,852
-we are facing our computer and working on it.
+wenn wir uns vor unseren Computer setzen und damit arbeiten.
 
 74
 00:04:07,852 --> 00:04:11,400
-It's like in those times where programming
+Wie damals, als programmieren
 
 75
 00:04:11,400 --> 00:04:13,440
-was *only* fun.
+*ausschließlich* Freude bereitete.
 
 76
 00:04:13,440 --> 00:04:16,441
-Since then, since the 80's
+Seit damals, seit den 80ern
 
 77
 00:04:16,441 --> 00:04:19,490
-a lot of revolutions happened.
+sind viele Revolutionen passiert.
 
 78
 00:04:19,490 --> 00:04:21,716
-And currently we have two -- I think --
+Und momentan erleben wir zwei -- meiner Meinung nach --
 
 79
 00:04:21,716 --> 00:04:25,710
-very important changes in the computing world.
+sehr wichtige Veränderungen in der IT.
 
 80
 00:04:25,710 --> 00:04:28,281
-The first one is augmenting the power
+Die erste ist die Leistungssteigerung
 
 81
 00:04:28,281 --> 00:04:31,224
-of computers by adding new cores
+durch immer mehr CPU cores
 
 82
 00:04:31,224 --> 00:04:34,934
-instead of raising the frequency of the CPUs.
+statt höheren Taktraten.
 
 83
 00:04:34,934 --> 00:04:39,320
-This has deep implications for programming tools.
+Das hat tiefgreifende Auswirkungen auf die Programmier-Toolchain.
 
 84
 00:04:39,320 --> 00:04:44,062
-The other main revolution is that we are all now
+Die andre Revolution ist, das wir nun alle
 
 85
 00:04:44,062 --> 00:04:46,772
-switching to mobile devices.
+auf mobile Geräte wechseln.
 
 86
 00:04:46,772 --> 00:04:49,987
-The market is changing very fast.
+Der Markt verändert sich sehr rash.
 
 87
 00:04:49,987 --> 00:04:52,947
-So the programming tools also need to adapt.
+Daher müssen sich auch unsere Programmiertools anpassen.
 
 88
 00:04:52,947 --> 00:04:56,540
-Despite those changes,
+Trotz dieser Veränderungen,
 
 89
 00:04:56,540 --> 00:04:59,593
-we are still using very old tools, in fact.
+verwenden wir in Wirklichkeit immer noch sehr alte Tools.
 
 90
 00:04:59,593 --> 00:05:03,677
-So I took just the five most popular
+Ich hab' die fünf populärsten
 
 91
 00:05:03,677 --> 00:05:07,004
-programming languages from the Tiobe index...
+Programmiersprachen des Tiobe index genommen ...
 
 92
 00:05:07,004 --> 00:05:09,111
-...the famous index.
+... der berühmte index.
 
 93
 00:05:09,111 --> 00:05:12,114
-Yeah, C is still the main one
+Ja, C ist immer noch die wichtigste
 
 94
 00:05:12,114 --> 00:05:14,672
-and it's been around for almost 40 years now.
+und C existiert nun schon seit fast 40 Jahren.
 
 95
 00:05:14,672 --> 00:05:18,748
-That's quite a long time in computing!
+Das ist eine lange Zeit in der IT!
 
 96
 00:05:18,748 --> 00:05:22,984
-And C is absolutely not meant to address
+Und C ist schlicht nicht dafür gemacht
 
 97
 00:05:22,984 --> 00:05:25,417
-the modern needs for computing.
+die modernen Bedürfnisse in der IT abzudecken.
 
 98
 00:05:25,417 --> 00:05:27,973
-And if you look at the other ones
+Wenn ihr euch die anderen Sprachen anschaut
 
 99
 00:05:27,973 --> 00:05:30,784
-that's almost more or less the same thing.
+ist das mehr oder weniger das selbe Problem.
 
 100
 00:05:30,784 --> 00:05:33,205
