@@ -396,67 +396,68 @@ ist das mehr oder weniger das selbe Problem.
 
 100
 00:05:30,784 --> 00:05:33,205
-Fortunately for us, some people...
+Zum Glück für uns sind einige Menschen ...
 
 101
 00:05:33,205 --> 00:05:36,211
-...some very rare people were aware of this
+... einige wenige Menschen sich dessen bewusst
 
 102
 00:05:36,211 --> 00:05:41,981
-and capable of giving an answer to these issues.
+und fähig Antworten auf diese Fragen zu geben.
 
 103
 00:05:41,981 --> 00:05:45,129
-People like Carl (gestures to Carl Sassenrath)
+Menschen wie Carl (gestikuliert zu Carl Sassenrath)
 
 104
 00:05:45,129 --> 00:05:47,309
-who invented Rebol... fantastic tool.
+der Rebol erfunden hat ... ein fantastisches Tool.
+
 
 105
 00:05:47,309 --> 00:05:50,383
-Probably one of the greatest inventions
+Vielleicht eine der besten Erfindungen 
 
 106
 00:05:50,383 --> 00:05:55,080
-in the programming world in the last 20 years.
+In der Programmierwelt der letzten 20 Jahre.
 
 107
 00:05:55,080 --> 00:05:57,875
-So Rebol was a good solution, or a very
+Rebol war eine gute Lösung, eine sehr 
 
 108
 00:05:57,875 --> 00:06:00,598
-good solution for a lot of concerns.
+gute Lösung für viele Probleme.
 
 109
 00:06:00,598 --> 00:06:01,978
-*But not all.*
+*Aber nicht für alle.*
 
 110
 00:06:01,978 --> 00:06:05,352
-Something I would like to show to Carl...
+Etwas, das ich Carl zeigen möchte ...
 
 111
 00:06:05,352 --> 00:06:08,556
-...maybe he hasn't seen it?
+... vielleicht hat er es noch nicht gesehen?
 
 112
 00:06:08,556 --> 00:06:12,917
-The wonders Rebol was doing, until recently,
+The Wunder, die Rebol tut, bis vor kurzem, 
 
 113
 00:06:12,917 --> 00:06:17,277
-was just the Rebol community praising it
+war es nur die Community, die sie preist,
 
 114
 00:06:17,277 --> 00:06:20,004
-and trying to explain to people how Rebol
+und versucht, anderen zu erklären, wie
 
 115
 00:06:20,004 --> 00:06:23,947
-was a productive tool, and expressive.
+produktiv und ausdrucksstark Rebol ist.
 
 116
 00:06:23,947 --> 00:06:28,282
@@ -464,99 +465,99 @@ But recently a scientific study tried to measure
 
 117
 00:06:28,282 --> 00:06:32,133
-the expressiveness of programming languages.
+die ausdrucksstärke von Programmiersprachen gemessen.
 
 118
 00:06:32,133 --> 00:06:37,597
-So they did it. And Rebol... *surprise*! Is number 3.
+Und Rebol ... *Überraschung*! Ist Nummer 3.
 
 119
 00:06:37,597 --> 00:06:41,516
-In fact: number 1 and number 2 are DSLs.
+Tatsächlich sind Nummer 1 und 2 DSLs.
 
 120
 00:06:41,516 --> 00:06:44,526
-So guess who's the first one? (laughter)
+Ratet mal, wer erster ist? (Lachen)
 
 121
 00:06:44,526 --> 00:06:49,040
-So that just confirms something we all knew
+Also das bestätigt, was wir alle gewusst haben
 
 122
 00:06:49,040 --> 00:06:51,141
-since the beginning.
+seit dem Anfang.
 
 123
 00:06:51,141 --> 00:06:53,307
-Rebol is a very productive tool
+Rebol ist sehr produktive
 
 124
 00:06:53,307 --> 00:06:55,935
-and that's now proven. (laughter)
+und das ist jetzt bewiesen. (Lachen)
 
 125
 00:06:55,935 --> 00:07:00,715
-But Red tries to go beyond what Rebol provides.
+Aber Red versucht über Rebol hinauszugehen. 
 
 126
 00:07:00,715 --> 00:07:03,002
-Mainly in terms of implementation
+Hauptsächlich in der Implementation
 
 127
 00:07:03,002 --> 00:07:06,519
-not in terms of language semantics or syntax.
+nicht bei Semantik und Syntax.
 
 128
 00:07:06,519 --> 00:07:10,458
-But more in terms of toolchain, implementations,
+Mehr bei der Toolchain und Implementation,
 
 129
 00:07:10,458 --> 00:07:13,065
-and spreading.
+und der Verteilung.
 
 130
 00:07:13,065 --> 00:07:16,160
-So what is Red, really?
+Was ist Red wirklich?
 
 131
 00:07:16,160 --> 00:07:17,653
-Red is what I call
+Red ist, was ich eine 
 
 132
 00:07:17,653 --> 00:07:19,212
-a *Full-Stack Programming Language*
+*Full-Stack Programmiersprache* nenne.
 
 133
 00:07:19,212 --> 00:07:22,317
-Maybe you've heard about full-stack developers?
+Vielleicht habt ihr von full-stack Programmierern gehört?
 
 134
 00:07:22,317 --> 00:07:25,796
-So this one is a full-stack programming language.
+Und dies ist eine full-stack Programmiersprache.
 
 135
 00:07:25,796 --> 00:07:28,995
-And probably it's main characteristic
+Und vielleicht das Hauptmerkmal ist, dass
 
 136
 00:07:28,995 --> 00:07:31,188
-is that it's a true general purpose
+es eine Mehrzweck
 
 137
 00:07:31,188 --> 00:07:33,287
-programming solution.
+Programmiersprache ist.
 
 138
 00:07:33,287 --> 00:07:35,182
-There are many languages
+Es gibt viele Sprachen
 
 139
 00:07:35,182 --> 00:07:39,288
-that *advertise* as general purpose...
+die sich Mehrzwecksprache *nennen* ...
 
 140
 00:07:39,288 --> 00:07:43,358
-...but they are not as broad as Red can be.
+... aber sie sind nicht so weitreichend, wie Red.
 
 141
 00:07:43,358 --> 00:07:47,121
